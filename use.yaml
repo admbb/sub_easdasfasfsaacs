@@ -123,7 +123,7 @@ proxy-groups:
   - {name: 🔯 日本故转, type: fallback, include-all: true, interval: 300, filter: "^(?=.*(.*日本.*?zj|日|JP|(?i)Japan))(?=.*(?!(港|台|韩|新|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
   - {name: 🔯 狮城故转, type: fallback, include-all: true, interval: 300, filter: "^(?=.*(新加坡|坡|狮城|SG|Singapore))(?=.*(?!(台|日|韩|深|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
   - {name: 🔯 美国故转, type: fallback, include-all: true, interval: 300, filter: "^(?=.*(美|US|(?i)States|America))(?=.*(?!(港|台|韩|新|日|家|官网|剩余|流量|套餐|到期|重置))).*$"}
-  - {name: ♻️ 其他节点, type: url-test, include-all: true, interval: 300, filter: "^(?!.*(直连|港|新|日|美|家|官网|剩余|流量|套餐|到期|重置)).*$"}
+  - {name: ♻️ 其他节点, type: url-test, include-all: true, interval: 300, filter: "^(?!.*(过滤|直连|港|新|日|美|家|官网|剩余|流量|套餐|到期|重置)).*$"}
   
 
 
