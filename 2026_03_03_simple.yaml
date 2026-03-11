@@ -24,6 +24,7 @@ proxies:
   - {name: 直连, type: direct}
   - {name: 🇯🇵 日本_vmess_zj, server: 147.79.20.181, port: 12678, type: vmess, uuid: 2cf8b593-24a8-47a0-a5ef-dc9a35792fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, network: ws, ws-opts: {path: /abvdsd}, tfo: false, dialer-proxy: 🇭🇰 香港_vmess_zj}
   - {name: 🇭🇰 香港_vmess_zj, server: 199.48.247.102, port: 50786, type: vmess, uuid: 0b008676-4efc-471d-be73-7e11b076ccf5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, tfo: false}
+  - {name: 🇯🇵 日本_shadowsocks_zj, server: 147.79.20.181, port: 38577, type: ss, cipher: chacha20-ietf-poly1305, password: zHqVQClOIFX8FYRMeRewvofh7sUOlqdjCle5PnufqP8=, tfo: false, dialer-proxy: 🇭🇰 香港_vmess_zj}
 # 全局配置 
 mixed-port: 7890
 allow-lan: true
@@ -103,28 +104,33 @@ proxy-groups:
   - {name: 🚀 自建节点, type: url-test, include-all: true, filter: "^(?=.*zj).*$"}
   - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^(?!.*(?:直连|家|官网|剩余|流量|套餐|到期|重置|.*zj)).*$"}
   - {name: ✈️ AI节点, type: url-test, include-all: true, interval: 300, filter: "^(?=.*(Gemini|GPT)).*$"}
-  - {name: 📹 YouTube, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 美国故转, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
-  - {name: 🍀 Google, type: select, proxies: [♻️ 自动选择, 🚀 自建节点, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
-  - {name: 🤖 AI, type: select, proxies: [✈️ AI节点, 🚀 自建节点,♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
-  - {name: 👨🏿‍💻 GitHub, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
-  - {name: 🐬 OneDrive, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
-  - {name: 🪟 Microsoft, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
-  - {name: 🎵 TikTok, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
-  - {name: 📲 Telegram, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
-  - {name: 🎥 NETFLIX, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 狮城故转, 🔯 香港故转, 🔯 日本故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
-  - {name: 💶 PayPal, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🔯 香港故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
-  - {name: 🐟 漏网之鱼, type: select, proxies: [直连, 🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
+  - {name: ✈️ Gemini节点, type: url-test, include-all: true, interval: 300, filter: "^(?=.*(Gemini)).*$"}
+  - {name: 📹 YouTube, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 美国故转, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
+  - {name: 🍀 Google, type: select, proxies: [♻️ 自动选择, 🚀 自建节点, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
+  - {name: 🤖 AI, type: select, proxies: [✈️ AI节点, 🚀 自建节点,♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
+  - {name: 🤖 Gemini, type: select, proxies: [✈️ Gemini节点, ✈️ AI节点, 🚀 自建节点,♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
+  - {name: 👨🏿‍💻 GitHub, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
+  - {name: 🐬 OneDrive, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
+  - {name: 🪟 Microsoft, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
+  - {name: 🎵 TikTok, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
+  - {name: 📲 Telegram, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
+  - {name: 🎥 NETFLIX, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 狮城故转, 🔯 香港故转, 🔯 日本故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
+  - {name: 💶 PayPal, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🔯 香港故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
+  - {name: 🐟 漏网之鱼, type: select, proxies: [直连, 🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点]}
   - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "^(?=.*(.*香港.*?zj|港|HK|(?i)Hong))(?=.*(?!(台|日|韩|新|深|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
   - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "^(?=.*(.*日本.*?zj|日|JP|(?i)Japan))(?=.*(?!(港|台|韩|新|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
   - {name: 🇸🇬 狮城节点, type: select, include-all: true, filter: "^(?=.*(新加坡|坡|狮城|SG|Singapore))(?=.*(?!(台|日|韩|深|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
   - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "^(?=.*(美|US|(?i)States|America))(?=.*(?!(港|台|韩|新|日|家|官网|剩余|流量|套餐|到期|重置))).*$"}
-  - {name: 🔯 故障转移, type: fallback, include-all: true, interval: 300, filter: "^(?=.*(🇭🇰 香港_vmess_zj|.*?zj|美|US|(?i)States|America))(?=.*(?!(港|台|韩|新|日|家|官网|剩余|流量|套餐|到期|重置))).*$"}
-  - {name: 🔯 香港故转, type: fallback, include-all: true, interval: 300, filter: "^(?=.*(.*香港.*?zj|港|HK|(?i)Hong))(?=.*(?!(台|日|韩|新|深|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
-  - {name: 🔯 日本故转, type: fallback, include-all: true, interval: 300, filter: "^(?=.*(.*日本.*?zj|日|JP|(?i)Japan))(?=.*(?!(港|台|韩|新|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
-  - {name: 🔯 狮城故转, type: fallback, include-all: true, interval: 300, filter: "^(?=.*(新加坡|坡|狮城|SG|Singapore))(?=.*(?!(台|日|韩|深|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
-  - {name: 🔯 美国故转, type: fallback, include-all: true, interval: 300, filter: "^(?=.*(美|US|(?i)States|America))(?=.*(?!(港|台|韩|新|日|家|官网|剩余|流量|套餐|到期|重置))).*$"}
-  - {name: ♻️ 其他节点, type: url-test, include-all: true, interval: 300, filter: "^(?!.*(过滤|直连|港|新|日|美|家|官网|剩余|流量|套餐|到期|重置)).*$"}
-  
+  - {name: 🔯 故障转移, type: fallback, hidden: true, proxies: [🚀 自建节点, ♻️ 自动选择, ♻️ 香港自动,♻️ 日本自动,♻️ 狮城自动,♻️ 美国自动,♻️ 其他节点]}
+  - {name: 🔯 香港故转, type: fallback, hidden: true, include-all: true, interval: 300, filter: "^(?=.*(.*香港.*?zj|港|HK|(?i)Hong))(?=.*(?!(台|日|韩|新|深|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
+  - {name: 🔯 日本故转, type: fallback, hidden: true, include-all: true, interval: 300, filter: "^(?=.*(.*日本.*?zj|日|JP|(?i)Japan))(?=.*(?!(港|台|韩|新|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
+  - {name: 🔯 狮城故转, type: fallback, hidden: true, include-all: true, interval: 300, filter: "^(?=.*(新加坡|坡|狮城|SG|Singapore))(?=.*(?!(台|日|韩|深|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
+  - {name: 🔯 美国故转, type: fallback, hidden: true, include-all: true, interval: 300, filter: "^(?=.*(美|US|(?i)States|America))(?=.*(?!(港|台|韩|新|日|家|官网|剩余|流量|套餐|到期|重置))).*$"}
+  - {name: ♻️ 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, hidden: true, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美|家|官网|剩余|流量|套餐|到期|重置)).)*$"}
+  - {name: ♻️ 日本自动, type: url-test, include-all: true, tolerance: 20, interval: 300, hidden: true, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美|家|官网|剩余|流量|套餐|到期|重置)).)*$"}
+  - {name: ♻️ 狮城自动, type: url-test, include-all: true, tolerance: 20, interval: 300, hidden: true, filter: "(?=.*(新加坡|坡|狮城|SG|Singapore))^((?!(港|台|韩|日|美|家|官网|剩余|流量|套餐|到期|重置)).)*$"}
+  - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, hidden: true, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新|家|官网|剩余|流量|套餐|到期|重置)).)*$"}
+  - {name: ♻️ 其他节点, type: url-test, include-all: true, interval: 300, filter: "^(?!.*(过滤|直连|港|新|日|美|家|官网|剩余|流量|套餐|到期|重置)).*$"}  
 
 
 
