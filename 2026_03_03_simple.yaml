@@ -101,12 +101,12 @@ dns:
 # 没有再使用锚点，是考虑很多新手修改难度，这样新手修改某个分组更容易些。
 proxy-groups:
   - {name: 🌐 手动选择, type: select, include-all: true, filter: "^(?!.*(?:家|官网|剩余|流量|套餐|到期|重置)).*$"}
-  - {name: 🚀 自建节点, type: url-test, include-all: true, filter: "^(?=.*zj).*$"}
+  - {name: 🚀 自建节点, type: url-test, include-all: true, timeout: 300, interval: 300, filter: "^(?=.*zj).*$"}
   - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^(?!.*(?:直连|家|官网|剩余|流量|套餐|到期|重置|.*zj)).*$"}
   - {name: ✈️ AI节点, type: url-test, include-all: true, interval: 300, filter: "^(?=.*(Gemini|GPT)).*$"}
   - {name: ✈️ Gemini节点, type: url-test, include-all: true, interval: 300, filter: "^(?=.*(Gemini)).*$"}
   - {name: 📹 YouTube, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 美国故转, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
-  - {name: 🍀 Google, type: select, proxies: [♻️ 自动选择, 🚀 自建节点, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
+  - {name: 🍀 Google, type: select, proxies: [🔯 故障转移, ♻️ 自动选择, 🚀 自建节点, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
   - {name: 🤖 AI, type: select, proxies: [✈️ AI节点, 🚀 自建节点,♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
   - {name: 🤖 Gemini, type: select, proxies: [✈️ Gemini节点, ✈️ AI节点, 🚀 自建节点,♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
   - {name: 👨🏿‍💻 GitHub, type: select, proxies: [🔯 故障转移, 🚀 自建节点, ♻️ 自动选择, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
