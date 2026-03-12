@@ -139,7 +139,7 @@ rules:
   - RULE-SET,private_ip,直连,no-resolve
   - RULE-SET,private_domain,直连
   - RULE-SET,proxylite,♻️ 自动选择
-  - RULE-SET,Gemini_domain,🤖 AI
+  - RULE-SET,Gemini_domain,🤖 Gemini
   - RULE-SET,OpenAI_domain,🤖 AI
   - RULE-SET,ai,🤖 AI
   - RULE-SET,ai_ip,🤖 AI
