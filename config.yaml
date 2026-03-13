@@ -101,7 +101,7 @@ dns:
 # 没有再使用锚点，是考虑很多新手修改难度，这样新手修改某个分组更容易些。
 proxy-groups:
   - {name: 🌐 手动选择, type: select, include-all: true, filter: "^(?!.*(?:家|官网|剩余|流量|套餐|到期|重置)).*$"}
-  - {name: 🚀 自建节点, type: fallback, include-all: true, timeout: 150, interval: 300, filter: "^(?=.*zj).*$"}
+  - {name: 🚀 自建节点, type: url-test, include-all: true, timeout: 150, interval: 300, filter: "^(?=.*zj).*$"}
   - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^(?!.*(?:直连|家|官网|剩余|流量|套餐|到期|重置|.*zj)).*$"}
   - {name: ✈️ AI节点, type: url-test, include-all: true, interval: 300, filter: "^(?=.*(Gemini|GPT)).*$"}
   - {name: ✈️ Gemini节点, type: url-test, include-all: true, interval: 300, filter: "^(?=.*Gemini)(?=.*(新|美)).*$"}
