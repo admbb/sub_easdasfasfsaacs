@@ -22,7 +22,7 @@ proxy-providers:
 # 节点信息
 proxies:
   - {name: 直连, type: direct}
-#  - {name: 🇯🇵 日本_vmess_zj, server: 147.79.20.181, port: 12678, type: vmess, uuid: 2cf8b593-24a8-47a0-a5ef-dc9a35792fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, network: ws, ws-opts: {path: /abvdsd}, tfo: false, dialer-proxy: 🇭🇰 香港_vmess_zj}
+  - {name: 🇯🇵 日本_vmess_zj, server: 147.79.20.181, port: 12678, type: vmess, uuid: 2cf8b593-24a8-47a0-a5ef-dc9a35792fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, network: ws, ws-opts: {path: /abvdsd}, tfo: false, dialer-proxy: 🇭🇰 香港_vmess_zj}
   - {name: 🇭🇰 香港_vmess_zj, server: 199.48.247.102, port: 50786, type: vmess, uuid: 0b008676-4efc-471d-be73-7e11b076ccf5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, tfo: false}
   - {name: 🇯🇵 日本_shadowsocks_zj, server: 147.79.20.181, port: 38577, type: ss, cipher: chacha20-ietf-poly1305, password: zHqVQClOIFX8FYRMeRewvofh7sUOlqdjCle5PnufqP8=, tfo: false, dialer-proxy: 🇭🇰 香港_vmess_zj}
 # 全局配置 
@@ -144,7 +144,7 @@ rules:
   - RULE-SET,OpenAI_domain,🤖 AI
   - RULE-SET,ai,🤖 AI
   - RULE-SET,ai_ip,🤖 AI
-  - RULE-SET,proxylite,♻️ 自动选择
+  - RULE-SET,proxylite,🔯 故障转移
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
   - RULE-SET,youtube_domain,📹 YouTube
   - RULE-SET,google_domain,🍀 Google
@@ -159,7 +159,7 @@ rules:
   - RULE-SET,google_ip,🍀 Google
   - RULE-SET,netflix_ip,🎥 NETFLIX
   - RULE-SET,telegram_ip,📲 Telegram
-  - RULE-SET,geolocation-!cn,♻️ 自动选择
+  - RULE-SET,geolocation-!cn,🔯 故障转移
   - RULE-SET,cn_domain,直连
   - RULE-SET,cn_ip,直连
   - MATCH,🐟 漏网之鱼
