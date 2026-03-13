@@ -136,9 +136,9 @@ proxy-groups:
 
 # 规则匹配
 rules:
-  - RULE-SET,AdBlock_domain,reject
-  - RULE-SET,AD_domain,reject
-  - RULE-SET,reject_rules,reject
+  - RULE-SET,AdBlock_domain,REJECT
+  - RULE-SET,AD_domain,REJECT
+  - RULE-SET,reject_rules,REJECT
   - RULE-SET,private_ip,直连,no-resolve
   - RULE-SET,private_domain,直连
   - RULE-SET,trackerslist_domain,直连
