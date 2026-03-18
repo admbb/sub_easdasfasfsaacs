@@ -104,7 +104,7 @@ proxy-groups:
   - {name: 🚀 自建节点, type: fallback, proxies: [🇸🇬 新加坡_vmess_Gemini_zj, 🇭🇰 香港_vmess_zj, 🇯🇵 日本_vmess_zj]}
   - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^(?!.*(?:直连|家|官网|剩余|流量|套餐|到期|重置|.*zj)).*$"}
   - {name: ✈️ AI节点, type: url-test, include-all: true, interval: 300, filter: "^(?=.*(Gemini|GPT)).*$"}
-  - {name: ✈️ Gemini节点, type: url-test, include-all: true, interval: 300, filter: "^(?=.*(Gemini)(?=.*(新|美)).*$"}
+  - {name: ✈️ Gemini节点, type: url-test, include-all: true, interval: 300, filter: "^(?=.*Gemini)(?=.*(新|美)).*$"}
   - {name: 📹 YouTube, type: select, proxies: [🔯 故障转移, ♻️ 自动选择, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点]}
   - {name: 🍀 Google, type: select, proxies: [🔯 故障转移, ♻️ 自动选择, 🔯 故障转移, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点]}
   - {name: 🤖 AI, type: select, proxies: [✈️ AI节点, 🔯 故障转移,♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点]}
