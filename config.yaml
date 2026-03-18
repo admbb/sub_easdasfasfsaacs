@@ -22,7 +22,7 @@ proxy-providers:
 # 节点信息
 proxies:
   - {name: 直连, type: direct}
-  - {name: 🇯🇵 日本_vmess_zj, server: 147.79.20.181, port: 12678, type: vmess, uuid: 2cf8b593-24a8-47a0-a5ef-dc9a35792fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, network: ws, ws-opts: {path: /abvdsd}, tfo: false, dialer-proxy: 🇭🇰 香港_vmess_zj}
+  - {name: 🇯🇵 日本_vmess_Gemini_zj, server: 147.79.20.181, port: 12678, type: vmess, uuid: 2cf8b593-24a8-47a0-a5ef-dc9a35792fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, network: ws, ws-opts: {path: /abvdsd}, tfo: false, dialer-proxy: 🇭🇰 香港_vmess_zj}
   - {name: 🇭🇰 香港_vmess_zj, server: 199.48.247.102, port: 50786, type: vmess, uuid: 0b008676-4efc-471d-be73-7e11b076ccf5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, tfo: false}
   - {name: 🇸🇬 新加坡_vmess_Gemini_zj, server: 137.220.150.16, port: 12703, type: vmess, uuid: f2ea8084-8482-4a19-a5d0-ed96d2de361a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, tfo: false, dialer-proxy: 🇭🇰 香港_vmess_zj}
 # 全局配置 
@@ -101,14 +101,12 @@ dns:
 # 没有再使用锚点，是考虑很多新手修改难度，这样新手修改某个分组更容易些。
 proxy-groups:
   - {name: 🌐 手动选择, type: select, include-all: true, filter: "^(?!.*(?:家|官网|剩余|流量|套餐|到期|重置)).*$"}
-  - {name: 🚀 自建节点, type: fallback, proxies: [🇸🇬 新加坡_vmess_Gemini_zj, 🇭🇰 香港_vmess_zj, 🇯🇵 日本_vmess_zj]}
+  - {name: 🚀 自建节点, type: fallback, proxies: [🇸🇬 新加坡_vmess_Gemini_zj, 🇭🇰 香港_vmess_zj, 🇯🇵 日本_vmess_Gemini_zj]}
   - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^(?!.*(?:直连|家|官网|剩余|流量|套餐|到期|重置|.*zj)).*$"}
-  - {name: ✈️ AI节点, type: url-test, include-all: true, interval: 300, filter: "^(?=.*(Gemini|GPT)).*$"}
-  - {name: ✈️ Gemini节点, type: url-test, include-all: true, interval: 300, filter: "^(?=.*Gemini)(?=.*(新|美)).*$"}
   - {name: 📹 YouTube, type: select, proxies: [🔯 故障转移, ♻️ 自动选择, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点]}
   - {name: 🍀 Google, type: select, proxies: [🔯 故障转移, ♻️ 自动选择, 🔯 故障转移, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点]}
-  - {name: 🤖 AI, type: select, proxies: [✈️ AI节点, 🔯 故障转移,♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点]}
-  - {name: 🤖 Gemini, type: select, proxies: [✈️ Gemini节点, ✈️ AI节点, 🔯 故障转移,♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点]}
+  - {name: 🤖 AI, type: url-test, include-all: true, interval: 300, filter: "^(?=.*(Gemini|GPT)).*$"}
+  - {name: 🤖 Gemini, type: url-test, include-all: true, interval: 300, filter: "^(?=.*Gemini)(?=.*(新|美)).*$"}
   - {name: 👨🏿‍💻 GitHub, type: select, proxies: [🔯 故障转移, ♻️ 自动选择, 🌐 手动选择, 🔯 香港故转, 🔯 日本故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点]}
   - {name: 🐬 OneDrive, type: select, proxies: [🔯 故障转移, ♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
   - {name: 🪟 Microsoft, type: select, proxies: [🔯 故障转移, ♻️ 自动选择, 🌐 手动选择, 🔯 日本故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, ♻️ 其他节点, 直连]}
