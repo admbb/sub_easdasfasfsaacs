@@ -1,0 +1,1738 @@
+[
+  {
+    "name": "zzsj_🇨🇳 台湾01丨ChatGPT专用",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 38320,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇨🇳 台湾02丨ChatGPT",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 38777,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇨🇳 台湾03丨Netflix",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 37777,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇬🇧 英国01丨ChatGPT",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 37000,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇬🇷 希腊",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 55559,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇭🇰 香港01丨Netflix",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 36324,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇭🇰 香港02丨Netflix",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 34103,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇭🇰 香港03丨Netflix",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 34555,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇭🇰 香港04丨Netflix",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 23855,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇭🇰 香港05丨Netflix",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 36327,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇭🇰 香港06丨Netflix",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 37328,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇭🇰 香港07丨Netflix",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 36334,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇭🇰 香港08丨Netflix",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 46780,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇮🇸 冰岛",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 55557,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇯🇵 日本01丨ChatGPT",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 57663,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇯🇵 日本02丨Netflix",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 46899,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇰🇷 韩国",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 55556,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇲🇾 马来西亚",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 54001,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇳🇿 新西兰",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 55558,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇸🇬 新加坡01丨ChatGPT",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 35336,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇸🇬 新加坡02丨Netflix",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 33339,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇹🇷 土耳其",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 33001,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇺🇸 美国01丨Gemini",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 36321,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇺🇸 美国02丨Netflix",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 46660,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇺🇸 美国03丨ChatGPT",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 36331,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "zzsj_🇻🇳 越南",
+    "type": "ss",
+    "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
+    "port": 34338,
+    "cipher": "chacha20-ietf-poly1305",
+    "password": "c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8",
+    "udp": true,
+    "_subName": "zzsj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇯🇵 日本-优化",
+    "type": "vmess",
+    "server": "planb.mojcn.com",
+    "port": 16617,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇯🇵 日本-优化2",
+    "type": "vmess",
+    "server": "m.cnmjin.net",
+    "port": 16617,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇯🇵 日本-优化3",
+    "type": "vmess",
+    "server": "t.cnmjcn.cyou",
+    "port": 16617,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇯🇵 日本JP-HY2",
+    "server": "jp.mjhy2.com",
+    "port": 1443,
+    "sni": "jp.mjhy2.com",
+    "up": 10000,
+    "down": 10000,
+    "skip-cert-verify": true,
+    "type": "hysteria2",
+    "password": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "tls": true,
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇸🇬 新加坡SG-HY2",
+    "server": "sg.mjhy2.com",
+    "port": 1443,
+    "sni": "sg.mjhy2.com",
+    "up": 10000,
+    "down": 10000,
+    "skip-cert-verify": true,
+    "type": "hysteria2",
+    "password": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "tls": true,
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇸🇬 新加坡-优化-Gemini-GPT",
+    "type": "vmess",
+    "server": "planb.mojcn.com",
+    "port": 16618,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇸🇬 新加坡-优化2-Gemini-GPT",
+    "type": "vmess",
+    "server": "m.cnmjin.net",
+    "port": 16618,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇸🇬 新加坡-优化3-Gemini",
+    "type": "vmess",
+    "server": "t.cnmjcn.cyou",
+    "port": 16618,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇭🇰 香港-优化-Gemini",
+    "type": "vmess",
+    "server": "planb.mojcn.com",
+    "port": 16632,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇭🇰 香港-优化2-Gemini",
+    "type": "vmess",
+    "server": "m.cnmjin.net",
+    "port": 16632,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇭🇰 香港-优化3-Gemini",
+    "type": "vmess",
+    "server": "t.cnmjcn.cyou",
+    "port": 16632,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇭🇰 香港WAP-优化-Gemini",
+    "type": "vmess",
+    "server": "planb.mojcn.com",
+    "port": 16622,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇭🇰 香港WAP-优化2-Gemini",
+    "type": "vmess",
+    "server": "m.cnmjin.net",
+    "port": 16622,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇭🇰 香港WAP-优化3-Gemini",
+    "type": "vmess",
+    "server": "t.cnmjcn.cyou",
+    "port": 16622,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇰🇷 韩国KR-HY2",
+    "server": "kr.mjhy2.com",
+    "port": 1443,
+    "sni": "kr.mjhy2.com",
+    "up": 10000,
+    "down": 10000,
+    "skip-cert-verify": true,
+    "type": "hysteria2",
+    "password": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "tls": true,
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇮🇳 印度-优化",
+    "type": "vmess",
+    "server": "planb.mojcn.com",
+    "port": 16626,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇨🇳 台湾-优化",
+    "type": "vmess",
+    "server": "planb.mojcn.com",
+    "port": 16616,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇨🇳 台湾-优化2-GPT",
+    "type": "vmess",
+    "server": "m.cnmjin.net",
+    "port": 16616,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇨🇳 台湾-优化3",
+    "type": "vmess",
+    "server": "t.cnmjcn.cyou",
+    "port": 16616,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇺🇸 美国LA-优化-GPT",
+    "type": "vmess",
+    "server": "planb.mojcn.com",
+    "port": 16648,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇺🇸 美国LA-优化2-GPT",
+    "type": "vmess",
+    "server": "m.cnmjin.net",
+    "port": 16648,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇺🇸 美国LA-优化3-GPT",
+    "type": "vmess",
+    "server": "t.cnmjcn.cyou",
+    "port": 16648,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇨🇦 加拿大-优化",
+    "type": "vmess",
+    "server": "planb.mojcn.com",
+    "port": 16641,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇨🇦 加拿大-优化2",
+    "type": "vmess",
+    "server": "m.cnmjin.net",
+    "port": 16641,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇨🇦 加拿大-优化3",
+    "type": "vmess",
+    "server": "t.cnmjcn.cyou",
+    "port": 16641,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇩🇪 德国DE-HY2",
+    "server": "de.mjhy2.com",
+    "port": 1443,
+    "up": 10000,
+    "down": 10000,
+    "skip-cert-verify": true,
+    "type": "hysteria2",
+    "password": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "tls": true,
+    "sni": "de.mjhy2.com",
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇩🇪 德国-优化",
+    "type": "vmess",
+    "server": "planb.mojcn.com",
+    "port": 16644,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇩🇪 德国-优化2",
+    "type": "vmess",
+    "server": "m.cnmjin.net",
+    "port": 16644,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇬🇧 英国-优化-GPT",
+    "type": "vmess",
+    "server": "planb.mojcn.com",
+    "port": 16645,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇬🇧 英国-优化2",
+    "type": "vmess",
+    "server": "m.cnmjin.net",
+    "port": 16645,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "mj_🇬🇧 英国-优化3",
+    "type": "vmess",
+    "server": "t.cnmjcn.cyou",
+    "port": 16645,
+    "uuid": "cba7dc87-faa7-4ed9-b457-3aee6ce51930",
+    "alterId": 0,
+    "cipher": "auto",
+    "udp": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/",
+      "headers": {
+        "Host": "2c648ed09f447a3893e9d61d6f6d8aeb.mobgslb.tbcache.com"
+      }
+    },
+    "_subName": "mj",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇭🇰 香港 01",
+    "type": "anytls",
+    "server": "r1hknh.yytls.top",
+    "port": 27002,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "r1hknh.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇭🇰 香港 02",
+    "type": "tuic",
+    "server": "wx9rx6.yydzx.xyz",
+    "port": 12256,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "uuid": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "sni": "wx9rx6.yydzx.xyz",
+    "disable-sni": false,
+    "congestion-controller": "bbr",
+    "reduce-rtt": false,
+    "alpn": [
+      "h3"
+    ],
+    "tls": true,
+    "udp-relay-mode": "native",
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇺🇸 美国 01",
+    "type": "anytls",
+    "server": "aed4wm.yytls.top",
+    "port": 27001,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "aed4wm.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇺🇸 美国 02",
+    "type": "tuic",
+    "server": "qbt7c0.yydzx.xyz",
+    "port": 11976,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "uuid": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "sni": "qbt7c0.yydzx.xyz",
+    "disable-sni": false,
+    "congestion-controller": "bbr",
+    "reduce-rtt": false,
+    "alpn": [
+      "h3"
+    ],
+    "tls": true,
+    "udp-relay-mode": "native",
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇸🇬 新加坡 01",
+    "type": "anytls",
+    "server": "t61zjw.yytls.top",
+    "port": 27003,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "t61zjw.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇸🇬 新加坡 02",
+    "type": "tuic",
+    "server": "ous8vu.yydzx.xyz",
+    "port": 13122,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "uuid": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "sni": "ous8vu.yydzx.xyz",
+    "disable-sni": false,
+    "congestion-controller": "bbr",
+    "reduce-rtt": false,
+    "alpn": [
+      "h3"
+    ],
+    "tls": true,
+    "udp-relay-mode": "native",
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇯🇵 日本 01",
+    "type": "anytls",
+    "server": "x95fsc.yytls.top",
+    "port": 27004,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "x95fsc.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇯🇵 日本 02",
+    "type": "tuic",
+    "server": "ctb4wk.yydzx.xyz",
+    "port": 14927,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "uuid": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "sni": "ctb4wk.yydzx.xyz",
+    "disable-sni": false,
+    "congestion-controller": "bbr",
+    "reduce-rtt": false,
+    "alpn": [
+      "h3"
+    ],
+    "tls": true,
+    "udp-relay-mode": "native",
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇨🇳 台湾 01",
+    "type": "anytls",
+    "server": "x2j25g.yytls.top",
+    "port": 27005,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "x2j25g.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇨🇳 台湾 02",
+    "type": "tuic",
+    "server": "glgpqm.yydzx.xyz",
+    "port": 15784,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "uuid": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "sni": "glgpqm.yydzx.xyz",
+    "disable-sni": false,
+    "congestion-controller": "bbr",
+    "reduce-rtt": false,
+    "alpn": [
+      "h3"
+    ],
+    "tls": true,
+    "udp-relay-mode": "native",
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇰🇷 韩国 01",
+    "type": "anytls",
+    "server": "absmwv.yytls.top",
+    "port": 27008,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "absmwv.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇰🇷 韩国 02",
+    "type": "tuic",
+    "server": "l9y1uz.yydzx.xyz",
+    "port": 16594,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "uuid": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "sni": "l9y1uz.yydzx.xyz",
+    "disable-sni": false,
+    "congestion-controller": "bbr",
+    "reduce-rtt": false,
+    "alpn": [
+      "h3"
+    ],
+    "tls": true,
+    "udp-relay-mode": "native",
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇲🇴 澳门 01",
+    "type": "anytls",
+    "server": "lmjso9.yytls.top",
+    "port": 27013,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "lmjso9.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇲🇴 澳门 02",
+    "type": "tuic",
+    "server": "s1vlfn.yydzx.xyz",
+    "port": 17275,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "uuid": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "sni": "s1vlfn.yydzx.xyz",
+    "disable-sni": false,
+    "congestion-controller": "bbr",
+    "reduce-rtt": false,
+    "alpn": [
+      "h3"
+    ],
+    "tls": true,
+    "udp-relay-mode": "native",
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇨🇦 加拿大 01",
+    "type": "anytls",
+    "server": "jnr278.yytls.top",
+    "port": 27009,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "jnr278.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇦🇺 澳大利亚 01",
+    "type": "anytls",
+    "server": "md6q20.yytls.top",
+    "port": 27006,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "md6q20.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇹🇭 泰国 01",
+    "type": "anytls",
+    "server": "oran8s.yytls.top",
+    "port": 27007,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "oran8s.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇩🇪 德国 01",
+    "type": "anytls",
+    "server": "ddk76d.yytls.top",
+    "port": 27010,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "ddk76d.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇫🇷 法国 01",
+    "type": "anytls",
+    "server": "my6s87.yytls.top",
+    "port": 27011,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "my6s87.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇬🇧 英国 01",
+    "type": "anytls",
+    "server": "gd2znc.yytls.top",
+    "port": 27012,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "gd2znc.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇲🇾 马来西亚 01",
+    "type": "anytls",
+    "server": "vmw3fv.yytls.top",
+    "port": 27014,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "vmw3fv.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇻🇳 越南 01",
+    "type": "anytls",
+    "server": "w3ofjk.yytls.top",
+    "port": 27015,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "w3ofjk.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇮🇩 印度尼西亚 01",
+    "type": "anytls",
+    "server": "wpcm20.yytls.top",
+    "port": 27016,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "wpcm20.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇳🇱 荷兰 01",
+    "type": "anytls",
+    "server": "sv3sxp.yytls.top",
+    "port": 27017,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "sv3sxp.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇲🇳 蒙古 01",
+    "type": "anytls",
+    "server": "dxc79f.yytls.top",
+    "port": 27018,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "dxc79f.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇲🇽 墨西哥 01",
+    "type": "anytls",
+    "server": "ptw7p7.yytls.top",
+    "port": 27019,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "ptw7p7.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇵🇭 菲律宾 01",
+    "type": "anytls",
+    "server": "gdnj1e.yytls.top",
+    "port": 27020,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "gdnj1e.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇦🇶 南极洲 01",
+    "type": "anytls",
+    "server": "gzhc1v.yytls.top",
+    "port": 27021,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "gzhc1v.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇮🇳 印度 01",
+    "type": "anytls",
+    "server": "qef1op.yytls.top",
+    "port": 27022,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "qef1op.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇪🇬 埃及 01",
+    "type": "anytls",
+    "server": "fzyb88.yytls.top",
+    "port": 27023,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "fzyb88.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇮🇹 意大利 01",
+    "type": "anytls",
+    "server": "slt8pv.yytls.top",
+    "port": 27024,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "slt8pv.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇹🇷 土耳其 01",
+    "type": "anytls",
+    "server": "e3rg3k.yytls.top",
+    "port": 27025,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "e3rg3k.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇦🇷 阿根廷 01",
+    "type": "anytls",
+    "server": "ae1usw.yytls.top",
+    "port": 27026,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "ae1usw.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇰🇭 柬埔寨 01",
+    "type": "anytls",
+    "server": "jybnvx.yytls.top",
+    "port": 27027,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "jybnvx.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇱🇦 老挝 01",
+    "type": "anytls",
+    "server": "qak087.yytls.top",
+    "port": 27028,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "qak087.yytls.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇩🇪 [直连] 德国 01",
+    "type": "tuic",
+    "server": "detuic.yydzx.xyz",
+    "port": 15938,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "uuid": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "sni": "detuic.yydzx.xyz",
+    "disable-sni": false,
+    "congestion-controller": "bbr",
+    "reduce-rtt": false,
+    "alpn": [
+      "h3",
+      "h2",
+      "http/1.1"
+    ],
+    "tls": true,
+    "udp-relay-mode": "native",
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇯🇵 [直连] 日本 01",
+    "type": "anytls",
+    "server": "peoxkh.jp001.yyzhilian.top",
+    "port": 14219,
+    "password": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "client-fingerprint": "chrome",
+    "udp": true,
+    "sni": "peoxkh.jp001.yyzhilian.top",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  },
+  {
+    "name": "yyss_🇺🇸 [直连] 美国 01",
+    "type": "vless",
+    "server": "usvless.yydzx.xyz",
+    "port": 17835,
+    "uuid": "4fc1da10-7371-4110-b4dd-978b63bc2ca0",
+    "flow": "xtls-rprx-vision",
+    "udp": true,
+    "tls": true,
+    "skip-cert-verify": false,
+    "network": "tcp",
+    "sni": "usvless.yydzx.xyz",
+    "_subName": "yyss",
+    "_subDisplayName": "",
+    "_collectionName": "all",
+    "_collectionDisplayName": ""
+  }
+]
