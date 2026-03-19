@@ -220,7 +220,7 @@ rules:
   - RULE-SET,ai_ip,🤖 AI
   - RULE-SET,proxylite,🔯 故障转移
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
-  - RULE-SET,accept_rules,🎥 NETFLIX
+  - RULE-SET,accept_rules,🎥 NETFLIX节点
   - RULE-SET,youtube_domain,📹 YouTube
   - RULE-SET,google_domain,🍀 Google
   - RULE-SET,onedrive_domain,🐬 OneDrive
