@@ -187,7 +187,7 @@ proxy-groups:
   - {name: 🪟 Microsoft, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
   - {name: 🎵 TikTok, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
   - {name: 📲 Telegram, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
-  - {name: 🎥 NETFLIX, type: select, proxies: [🎥 NETFLIX节点, 🎥 NETFLIX备用节点, 🎥 zzsj_NETFLIX节点, ♻️ 自动选择, 🌐 手动选择]}
+  - {name: 🎥 NETFLIX, type: select, proxies: [🎥 NETFLIX备用节点, 🎥 NETFLIX节点, 🎥 zzsj_NETFLIX节点, ♻️ 自动选择, 🌐 手动选择]}
   - {name: 💶 PayPal, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [直连, 🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
   - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "^(?=.*(.*yyss.*?香港|.*zzsj.*?香港|.*香港.*?zj|港|HK|(?i)Hong))(?=.*(?!(台|日|韩|新|深|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
