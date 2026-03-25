@@ -178,7 +178,7 @@ proxy-groups:
   - {name: 🌐 手动选择, type: select, include-all: true, filter: "^(?!.*(过滤|直连|家|官网|剩余|流量|套餐|到期|重置)).*$"}
   - {name: 🎥 NETFLIX节点, type: fallback, proxies: [🚀 自建节点, 🎥 NETFLIX备用节点,🎥 zzsj_NETFLIX节点]}
   - {name: 🎥 NETFLIX备用节点, type: url-test, include-all: true, filter: "^(?=.*(.*yyss.*?新加坡|.*yyss.*?香港|.*yyss.*?美国)).*$", url: http://www.gstatic.com/generate_204}
-  - {name: 🚀 自建节点, type: fallback, proxies: [🇭🇰 香港_vmess_zj, 🇯🇵 日本_vmess_zj]}
+  - {name: 🚀 自建节点, type: fallback, proxies: [🇭🇰 香港_vmess_zj, 🇯🇵 日本_vmess_zj, 🇯🇵 日本_vmess_zj2]}
   - {name: 🤖 AI, type: url-test, include-all: true, interval: 300, filter: "^(?=.*(Gemini|GPT)).*$", url: http://www.gstatic.com/generate_204}
   - {name: 🤖 Gemini, type: url-test, include-all: true, interval: 300, filter: "^(?=.*Gemini)(?=.*(新|美)).*$", url: http://www.gstatic.com/generate_204}
   - {name: 📹 YouTube, type: select, proxies: [🎥 NETFLIX节点, 🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
