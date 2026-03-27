@@ -203,9 +203,10 @@ proxy-groups:
   - {name: ✈️ zzsj节点, type: url-test, include-all: true, interval: 180, filter: "^(?=.*zzsj).*$", url: http://www.gstatic.com/generate_204}
   - {name: ✈️ mj节点, type: url-test, include-all: true, interval: 180, filter: "^(?=.*mj).*$", url: http://www.gstatic.com/generate_204}
   - {name: ✈️ yyss节点, type: url-test, include-all: true, interval: 180, filter: "^(?=.*yyss).*$", url: http://www.gstatic.com/generate_204}
-  - {name: 🎥 NETFLIX节点, type: fallback, proxies: [🚀 自建节点, 🎥 yyss_NETFLIX节点, 🎥 zzsj_NETFLIX节点]}
+  - {name: 🎥 NETFLIX节点, type: fallback, proxies: [🎥 yyss_NETFLIX节点, 🎥 zzsj_NETFLIX节点]}
   - {name: 🎥 yyss_NETFLIX节点, type: url-test, include-all: true, filter: "^(?=.*(.*yyss.*?新加坡|.*yyss.*?香港|.*yyss.*?美国)).*$", url: http://www.gstatic.com/generate_204}
   - {name: 🎥 zzsj_NETFLIX节点, type: url-test, include-all: true, filter: "^(?=.*(|NETFLIX|Netflix)).*$", url: http://www.gstatic.com/generate_204}
+  - {name: 📀 媒体影院, type: fallback, proxies: [🚀 自建节点, 🎥 NETFLIX节点]}
   - {name: 🚀 自建节点, type: fallback, proxies: [🇭🇰 香港_vmess_zj, 🇯🇵 日本_vmess_zj]}
 
 
@@ -214,9 +215,10 @@ proxy-groups:
 rules:
   - RULE-SET,AWAvenueAds,🚫 广告拦截
   - RULE-SET,reject_rules,🚫 广告拦截
-  
+
+  - RULE-SET,media_rules,📀 媒体影院
+
   - RULE-SET,private_ip,DIRECT,no-resolve
-  - RULE-SET,accept_rules,🎥 NETFLIX节点
   - RULE-SET,private_domain,DIRECT
   - RULE-SET,trackerslist_domain,DIRECT
   - RULE-SET,Gemini_domain,🤖 Gemini
@@ -224,6 +226,7 @@ rules:
   - RULE-SET,ai,🤖 AI
   - RULE-SET,ai_ip,🤖 AI
   - RULE-SET,proxylite,🔯 故障转移
+  - RULE-SET,accept_rules,🔯 故障转移
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
   - RULE-SET,youtube_domain,📹 YouTube
   - RULE-SET,google_domain,🍀 Google
@@ -268,6 +271,7 @@ rule-providers:
   proxylite: { <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/proxy.list"}
   reject_rules: { <<: *class, url: "https://raw.githubusercontent.com/admbb/sub_easdasfasfsaacs/refs/heads/main/reject_rules.list"}
   accept_rules: { <<: *class, url: "https://raw.githubusercontent.com/admbb/sub_easdasfasfsaacs/refs/heads/main/accept_rules.list"}
+  media_rules: { <<: *class, url: "https://raw.githubusercontent.com/admbb/sub_easdasfasfsaacs/refs/heads/main/media_rules.list"}
   ai: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs" }
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
   google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
