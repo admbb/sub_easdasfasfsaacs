@@ -1,5 +1,6 @@
 # 节点信息
 proxies:
+  - {name: 🇯🇵 日本_ipv6_zj, server: 147.79.20.181, port: 32519, type: vmess, uuid: d60e5f2f-c007-42e3-bd99-e9e2f804f9bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, tfo: false}
   - {name: 🇯🇵 日本_vmess_zj, server: 147.79.20.181, port: 12678, type: vmess, uuid: 2cf8b593-24a8-47a0-a5ef-dc9a35792fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, network: ws, ws-opts: {path: /abvdsd}, tfo: false, dialer-proxy: 🇭🇰 香港_vmess_zj}
   - {name: 🇭🇰 香港_vmess_zj, server: 199.48.247.102, port: 50786, type: vmess, uuid: 0b008676-4efc-471d-be73-7e11b076ccf5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, tfo: false}
   - {"name":"zzsj_🇨🇳 台湾01丨ChatGPT专用","type":"ss","server":"f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl","port":38320,"cipher":"chacha20-ietf-poly1305","password":"c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8","udp":true}
@@ -207,7 +208,7 @@ proxy-groups:
   - {name: 🎥 yyss_NETFLIX节点, type: url-test, include-all: true, filter: "^(?=.*(.*yyss.*?新加坡|.*yyss.*?香港|.*yyss.*?美国)).*$", url: http://www.gstatic.com/generate_204}
   - {name: 🎥 zzsj_NETFLIX节点, type: url-test, include-all: true, filter: "^(?=.*(|NETFLIX|Netflix)).*$", url: http://www.gstatic.com/generate_204}
   - {name: 📀 媒体影院, type: fallback, proxies: [🚀 自建节点, 🎥 NETFLIX节点]}
-  - {name: 🚀 自建节点, type: fallback, proxies: [🇭🇰 香港_vmess_zj, 🇯🇵 日本_vmess_zj]}
+  - {name: 🚀 自建节点, type: fallback, proxies: [🇭🇰 香港_vmess_zj, 🇯🇵 日本_vmess_zj, 🇯🇵 日本_ipv6_zj]}
 
 
 
