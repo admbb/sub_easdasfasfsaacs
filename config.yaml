@@ -1,6 +1,5 @@
 # 节点信息
 proxies:
-  - {name: 直连, type: direct}
   - {name: 🇯🇵 日本_vmess_zj, server: 147.79.20.181, port: 12678, type: vmess, uuid: 2cf8b593-24a8-47a0-a5ef-dc9a35792fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, network: ws, ws-opts: {path: /abvdsd}, tfo: false, dialer-proxy: 🇭🇰 香港_vmess_zj}
   - {name: 🇭🇰 香港_vmess_zj, server: 199.48.247.102, port: 50786, type: vmess, uuid: 0b008676-4efc-471d-be73-7e11b076ccf5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.apple.com, tfo: false}
   - {"name":"zzsj_🇨🇳 台湾01丨ChatGPT专用","type":"ss","server":"f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl","port":38320,"cipher":"chacha20-ietf-poly1305","password":"c5a6eb8e-9fb6-4ffe-874e-eceb62db12b8","udp":true}
@@ -181,15 +180,15 @@ proxy-groups:
   - {name: 🍀 Google, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
   - {name: 👨🏿‍💻 GitHub, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
   - {name: 🐬 OneDrive, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
-  - {name: 🪟 Microsoft, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
-  - {name: 🎵 TikTok, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
-  - {name: 🎶 Spotify, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 直连]}
+  - {name: 🪟 Microsoft, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, DIRECT]}
+  - {name: 🎵 TikTok, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, DIRECT]}
+  - {name: 🎶 Spotify, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, DIRECT]}
   - {name: 📲 Telegram, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
   - {name: 🎮 Games, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
   - {name: 🎥 NETFLIX, type: select, proxies: [🎥 NETFLIX节点, 🎥 yyss_NETFLIX节点, 🎥 zzsj_NETFLIX节点, ♻️ 自动选择, 🌐 手动选择]}
   - {name: 💶 PayPal, type: select, proxies: [🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [DIRECT, 🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
-  - {name: 🚫 广告拦截, type: select, proxies: [REJECT, 直连, 🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
+  - {name: 🚫 广告拦截, type: select, proxies: [REJECT, DIRECT, 🔯 故障转移, 🌐 手动选择, ♻️ 自动选择, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 其他自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
   - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "^(?=.*(.*yyss.*?香港|.*zzsj.*?香港|.*香港.*?zj|港|HK|(?i)Hong))(?=.*(?!(台|日|韩|新|深|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
   - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "^(?=.*(.*yyss.*?日本|.*zzsj.*?日本|.*日本.*?zj|日|JP|(?i)Japan))(?=.*(?!(港|台|韩|新|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
   - {name: 🇸🇬 狮城节点, type: select, include-all: true, filter: "^(?=.*(.*yyss.*?新加坡|.*zzsj.*?新加坡|.*新加坡.*?zj|新加坡|坡|狮城|SG|Singapore))(?=.*(?!(台|日|韩|深|美|家|官网|剩余|流量|套餐|到期|重置))).*$"}
@@ -216,10 +215,10 @@ rules:
   - RULE-SET,AWAvenueAds,🚫 广告拦截
   - RULE-SET,reject_rules,🚫 广告拦截
   
-  - RULE-SET,private_ip,直连,no-resolve
+  - RULE-SET,private_ip,DIRECT,no-resolve
   - RULE-SET,accept_rules,🎥 NETFLIX节点
-  - RULE-SET,private_domain,直连
-  - RULE-SET,trackerslist_domain,直连
+  - RULE-SET,private_domain,DIRECT
+  - RULE-SET,trackerslist_domain,DIRECT
   - RULE-SET,Gemini_domain,🤖 Gemini
   - RULE-SET,OpenAI_domain,🤖 AI
   - RULE-SET,ai,🤖 AI
@@ -230,18 +229,18 @@ rules:
   - RULE-SET,google_domain,🍀 Google
   - RULE-SET,onedrive_domain,🐬 OneDrive
   - RULE-SET,microsoft_domain,🪟 Microsoft
-  - RULE-SET,apple_domain,直连
+  - RULE-SET,apple_domain,DIRECT
   - RULE-SET,tiktok_domain,🎵 TikTok
   - RULE-SET,telegram_domain,📲 Telegram
   - RULE-SET,netflix_domain,🎥 NETFLIX
   - RULE-SET,paypal_domain,💶 PayPal
-  - RULE-SET,apple_ip,直连
+  - RULE-SET,apple_ip,DIRECT
   - RULE-SET,google_ip,🍀 Google
   - RULE-SET,netflix_ip,🎥 NETFLIX
   - RULE-SET,Spotify_domain,🎶 Spotify
   - RULE-SET,telegram_ip,📲 Telegram
-  - RULE-SET,SteamCN,直连
-  - RULE-SET,GameDownloadCN,直连
+  - RULE-SET,SteamCN,DIRECT
+  - RULE-SET,GameDownloadCN,DIRECT
   - RULE-SET,GameDownload,🔯 故障转移
   - RULE-SET,Steam_domain,🎮 Games
   - RULE-SET,Epic_domain,🎮 Games
@@ -252,8 +251,8 @@ rules:
   - RULE-SET,Nintend_domain,🎮 Games
   - RULE-SET,Game_domain,🎮 Games
   - RULE-SET,geolocation-!cn,🔯 故障转移
-  - RULE-SET,cn_domain,直连
-  - RULE-SET,cn_ip,直连
+  - RULE-SET,cn_domain,DIRECT
+  - RULE-SET,cn_ip,DIRECT
   - MATCH,🐟 漏网之鱼
 
 # 规则集
