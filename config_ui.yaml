@@ -20,7 +20,7 @@ proxy-providers:
   nb_2:
     url: "https://raw.githubusercontent.com/admbb/sub_easdasfasfsaacs/refs/heads/main/nb_2.yaml"
     type: http
-    interval: 86400
+    interval: 10800
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
