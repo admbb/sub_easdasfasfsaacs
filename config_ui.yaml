@@ -17,8 +17,8 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: DIRECT
-  nb_2:
-    url: "https://raw.githubusercontent.com/admbb/sub_easdasfasfsaacs/refs/heads/main/nb_2.yaml"
+  4_2:
+    url: "https://raw.githubusercontent.com/admbb/sub_easdasfasfsaacs/refs/heads/main/4_2.yaml"
     type: http
     interval: 10800
     health-check:
@@ -141,7 +141,7 @@ proxy-groups:
   - {name: ✈️ yyss节点, type: url-test, include-all: true, tolerance: 30, interval: 300, filter: "^(?=.*yyss).*$", url: http://www.gstatic.com/generate_204}
   - {name: ✈️ kly节点, type: url-test, include-all: true, tolerance: 30, interval: 300, filter: "^(?=.*kly).*$", url: http://www.gstatic.com/generate_204}
   - {name: ✈️ nb节点, type: url-test, include-all: true, tolerance: 30, interval: 300, filter: "^(?=.*nb).*$", url: http://www.gstatic.com/generate_204}
-  - {name: 🫧 nb优质节点, type: url-test, use: [nb_2], tolerance: 30, interval: 300, url: http://www.gstatic.com/generate_204}  
+  - {name: 🫧 nb优质节点, type: url-test, use: [4_2], tolerance: 30, interval: 300, url: http://www.gstatic.com/generate_204}  
   - {name: 🎥 NETFLIX节点, type: fallback, proxies: [🎥 yyss_NETFLIX节点, 🎥 nb_NETFLIX节点, 🎥 zzsj_NETFLIX节点, ✈️ kly节点, 🌐 手动选择]}
   - {name: 🎥 yyss_NETFLIX节点, type: url-test, tolerance: 30, interval: 300, include-all: true, filter: "^(?=.*(.*yyss.*?新加坡|.*yyss.*?香港|.*yyss.*?美国)).*$", url: http://www.gstatic.com/generate_204}
   - {name: 🎥 zzsj_NETFLIX节点, type: url-test, tolerance: 30, interval: 300, include-all: true, filter: "^(?=.*(.*zzsj.*?NETFLIX|.*zzsj.*?Netflix)).*$", url: http://www.gstatic.com/generate_204}
