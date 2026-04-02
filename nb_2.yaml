@@ -1,25 +1,2 @@
 proxy-providers: {}
-proxies:
-- down: 300
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 26.25MB/s"
-  password: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
-  port: 43846
-  ports: 40000-50000
-  server: hk2.jueduibupao.top
-  skip-cert-verify: true
-  sni: hk2.jueduibupao.top
-  type: hysteria2
-  up: 100
-- down: 300
-  hop-interval: 60
-  name: "\U0001F1EA\U0001F1EA EE 001 | ⬇️ 24.11MB/s"
-  obfs: salamander
-  obfs-password: MTgzMGIzMTg0M2M1ZjAzMA==
-  password: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
-  port: 41962
-  ports: 40000-50000
-  server: lvs.jueduibupao.top
-  skip-cert-verify: true
-  sni: lvs.jueduibupao.top
-  type: hysteria2
-  up: 300
+proxies: []
