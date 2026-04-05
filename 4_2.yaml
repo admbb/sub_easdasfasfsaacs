@@ -5,7 +5,7 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 70.47MB/s"
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 29.72MB/s"
   network: tcp
   port: 62000
   reality-opts:
@@ -19,7 +19,7 @@ proxies:
   udp: true
   uuid: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
 - down: 300
-  name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 23.90MB/s"
+  name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 23.02MB/s"
   password: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
   port: 46733
   ports: 40000-50000
@@ -28,46 +28,27 @@ proxies:
   sni: de1.jueduibupao.top
   type: hysteria2
   up: 300
-- down: 300
-  hop-interval: 60
-  name: "\U0001F1EA\U0001F1EA EE 001 | ⬇️ 23.30MB/s"
-  obfs: salamander
-  obfs-password: MTgzMGIzMTg0M2M1ZjAzMA==
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 22.54MB/s"
   password: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
-  port: 47554
-  ports: 40000-50000
-  server: lvs.jueduibupao.top
+  port: 56000
+  server: hkt1.jueduibupao.top
   skip-cert-verify: true
-  sni: lvs.jueduibupao.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 22.77MB/s"
-  password: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
-  port: 40839
-  ports: 40000-50000
-  server: hk3.jueduibupao.top
-  skip-cert-verify: true
-  sni: hk3.jueduibupao.top
-  type: hysteria2
-  up: 200
+  sni: hkt1.jueduibupao.top
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
+  version: 5
 - down: 200
-  name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 22.18MB/s"
+  name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 20.40MB/s"
   password: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
-  port: 45007
+  port: 49326
   ports: 40000-50000
-  server: hkt2.jueduibupao.top
+  server: hkt1.jueduibupao.top
   skip-cert-verify: true
   sni: hkt1.jueduibupao.top
   type: hysteria2
   up: 100
-- down: 300
-  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 20.07MB/s"
-  password: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
-  port: 42357
-  ports: 40000-50000
-  server: uk1.jueduibupao.top
-  skip-cert-verify: true
-  sni: uk1.jueduibupao.top
-  type: hysteria2
-  up: 300
