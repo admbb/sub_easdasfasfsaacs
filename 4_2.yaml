@@ -5,7 +5,7 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 29.72MB/s"
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 33.61MB/s"
   network: tcp
   port: 62000
   reality-opts:
@@ -19,22 +19,32 @@ proxies:
   udp: true
   uuid: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
 - down: 300
-  name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 23.02MB/s"
+  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 25.77MB/s"
   password: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
-  port: 46733
+  port: 40839
   ports: 40000-50000
-  server: de1.jueduibupao.top
+  server: hk3.jueduibupao.top
   skip-cert-verify: true
-  sni: de1.jueduibupao.top
+  sni: hk3.jueduibupao.top
   type: hysteria2
-  up: 300
+  up: 200
+- down: 200
+  name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 21.54MB/s"
+  password: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
+  port: 45007
+  ports: 40000-50000
+  server: hkt2.jueduibupao.top
+  skip-cert-verify: true
+  sni: hkt1.jueduibupao.top
+  type: hysteria2
+  up: 100
 - alpn:
   - h3
   congestion-controller: bbr
-  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 22.54MB/s"
+  name: "\U0001F1ED\U0001F1F0 HK 004 | ⬇️ 21.24MB/s"
   password: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
   port: 56000
-  server: hkt1.jueduibupao.top
+  server: hkt2.jueduibupao.top
   skip-cert-verify: true
   sni: hkt1.jueduibupao.top
   type: tuic
@@ -42,13 +52,3 @@ proxies:
   udp-relay-mode: native
   uuid: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
   version: 5
-- down: 200
-  name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 20.40MB/s"
-  password: de4e5cfb-6676-4ab9-901c-cf4fa67016e6
-  port: 49326
-  ports: 40000-50000
-  server: hkt1.jueduibupao.top
-  skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: 100
